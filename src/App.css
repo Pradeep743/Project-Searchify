@@ -1,0 +1,28 @@
+/* Header styles */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+header p {
+    margin: 0.8rem 0 1.8rem 0;
+}
+
+footer p {
+    margin-top: 25%;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.2rem 0.4rem;
+}

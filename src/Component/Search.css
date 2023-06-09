@@ -1,0 +1,96 @@
+.form {
+    margin-bottom: 3rem;
+}
+
+.label {
+    font-size: 2rem;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.input {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.button {
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.70) ;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.70);
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+
+@media (min-width: 900px) {
+    .form {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 1rem;
+    }
+
+    .input, .button {
+        margin: 0;
+    }
+}
+
+
+/* card styles */
+
+.card-list {
+    width: 90%;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+    margin: 4rem auto;
+    grid-auto-rows: 1fr;
+}
+
+.card {
+    padding: 1rem;
+    background-color: hsl(0, 0%, 26%);
+    color: hsl(0, 0%, 100%);
+}
+
+.card-list img {
+    width: 100%;
+}
+
+.card-content {
+    padding-top: 1.5rem;
+    text-align: center;
+    align-content: center;
+}
+
+.card-content p {
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+
+@media (min-width: 576px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
